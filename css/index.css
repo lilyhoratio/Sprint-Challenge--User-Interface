@@ -280,8 +280,29 @@ footer nav a {
 /* Contact form CSS */
 
 .contact-form {
-    width: 40%;
+    width: 50%;
     margin: 0 auto 20px auto;
     padding: 30px;
-    border: 1px dashed crimson;
+    border: 1px dashed grey;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: baseline;
+}
+
+form input {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+/* how to center this button? align-content isn't doing it */
+form button {
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
