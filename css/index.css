@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,84 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Lily's code starts here */
+
+/* top navbar */
+.website-wrapper {
+    max-width: 800px;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Home page CSS */
+
+.top-content img {
+    margin-bottom: 15px;
+}
+
+/* Had to comment out the CSS in .middle-content .boxes .box { background: black } to get the box colors - why? Thought the following would override b/c it is more specific */
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
+}
+
+/* About page CSS */
+
+.about {
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.about-text {
+    padding: 15px;
 }
