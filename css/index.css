@@ -276,3 +276,12 @@ footer nav a {
 .home-bottom-content {
     padding: 10px;
 }
+
+/* Contact form CSS */
+
+.contact-form {
+    width: 40%;
+    margin: 0 auto 20px auto;
+    padding: 30px;
+    border: 1px dashed crimson;
+}
