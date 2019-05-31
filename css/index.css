@@ -252,4 +252,13 @@ footer nav a {
     background-color: white;
     border-radius: 5px;
     padding: 5px 20px;
+    border: 2px solid black;
+    transition: 0.4s;
+}
+
+.grid-item button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    opacity: 1;
 }
