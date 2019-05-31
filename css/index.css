@@ -230,14 +230,10 @@ footer nav a {
     flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 20px;
-    padding-bottom: 30px;
 }
 
 .grid-item {
     width: 45%;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around; */
     border-bottom: 1px dashed black;
     margin-bottom: 35px;
     padding-bottom: 15px;
@@ -250,8 +246,8 @@ footer nav a {
 .grid-item button {
     font-size: 100%;
     background-color: white;
-    border-radius: 5px;
-    padding: 5px 20px;
+    border-radius: 8px;
+    padding: 8px 20px;
     border: 2px solid black;
     transition: 0.4s;
 }
@@ -261,4 +257,12 @@ footer nav a {
     color: white;
     cursor: pointer;
     opacity: 1;
+}
+
+.grid-item h3 {
+    margin-top: 10px;
+}
+
+.bottom-content {
+    padding: 10px;
 }
