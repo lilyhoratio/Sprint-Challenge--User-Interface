@@ -113,9 +113,9 @@ p {
 }
 
 .bottom-content {
-    /* display: flex; */
+    display: flex;
     margin: 0 2% 20px;
-    /* justify-content: space-around; */
+    justify-content: space-around;
 }
 
 .bottom-content .text-container {
@@ -157,8 +157,8 @@ footer nav a {
 .top-nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+    align-items: flex-end;
+    margin-bottom: 30px;
 }
 
 .top-nav a {
@@ -263,6 +263,6 @@ footer nav a {
     margin-top: 10px;
 }
 
-.bottom-content {
+.home-bottom-content {
     padding: 10px;
 }
