@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
   
-Writing semantic HTML is to write HTML that indicates the meaning of the structured content within a web page. This allows other programmers you collaborate with to better understand the layout of text and other content within a page. For example, while HTML with the code <div>footer information</div> would be technically correct, it would be better to encase information that is in the "footer" of a webpage within the <footer></footer> tag.
+Writing semantic HTML is to write HTML that indicates the meaning of the structured content within a web page. This allows other programmers you collaborate with to better understand the layout of text and other content within a page. For example, while HTML with the code ```<div>footer information</div>``` would be technically correct, it would be better to encase information that is in the "footer" of a webpage within the ```<footer></footer>``` tag.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
